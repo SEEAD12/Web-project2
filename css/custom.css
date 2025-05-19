@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&display=swap");
+* {
+  font-family: "Noto Kufi Arabic", serif !important;
+}
+
+table img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.back {
+  text-decoration: none;
+  color: black;
+}
+.back:hover {
+  color: gray;
+}
+
+@media (max-width: 992px) {
+  .nav-pc {
+    display: none;
+  }
+  .nav-mobile {
+    display: block !important;
+  }
+}
+.xs {
+  direction: rtl !important;
+}
+
+.xs a {
+  font-size: 14px !important;
+  /* color:#1a65ff; */
+  /* text-decoration:underline; */
+  /* float:left; */
+  padding-top: 10px;
+}
+
+.xs li {
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+.xs li svg {
+  color: #3ba6cd;
+}
+.xs li p {
+  font-size: 14px;
+}
+
+.home_ svg {
+  color: #3ba6cd;
+}
+
+.navbar-nav a:hover {
+  color: #46b6de !important;
+}
+
+.bg-blue {
+  background-color: #3ba6cd !important;
+  color: white !important;
+  transition: 0.5s;
+}
+.bg-blue:hover {
+  background-color: #46b6de !important;
+}
+
+.color-blue {
+  color: #3ba6cd !important;
+}/*# sourceMappingURL=custom.css.map */
